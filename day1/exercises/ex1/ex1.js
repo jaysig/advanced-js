@@ -22,7 +22,7 @@ function G() {
 	console.log("G");
 	H();
 
-	var H = function() {
+	function H() {
 		console.log("H");
 		I();
 	};
@@ -41,7 +41,7 @@ function I() {
 	J();
 }
 
-B = function() {
+function B() {
 	console.log("B");
 	C();
 };
@@ -71,7 +71,7 @@ var J = function() {
 	};
 };
 
-C = function() {
+function C() {
 	console.log("C");
 	D();
 };
