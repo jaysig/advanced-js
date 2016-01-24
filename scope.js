@@ -36,7 +36,16 @@ console.log(foo);// foo
 	foo('bar');
 //Let tool http://github.com/getify/let-er
 
+//dynamic  - //runtime decision - Would look in the stack for declaration not step up different levels
 
+
+//Quiz
+/* 
+Cheating Lexical Scope - with and eval
+Ways to create new scope - function, catch blocks, curly blocks with let keyword
+Difference between undeclared and undefined - undefined is a value, undeclared has not been registered
+
+*/
 
 
 
