@@ -23,4 +23,46 @@ var foo = 'foo';
 console.log(foo);// foo
 //Protects global namespace
 	//Remember to name to protect global namespace
-	
+
+//Let - ES6 Assign to the lexical scope  (let i =0) in a for loops. Will only give access in a for loop for example
+	// have to be at top of a block
+//Good Example of Let. Not used in ES6
+	function foo(bar){
+		let (baz = bar){
+			console.log(baz);
+		}
+		console.log(baz);
+	} 
+	foo('bar');
+//Let tool http://github.com/getify/let-er
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
