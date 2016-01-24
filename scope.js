@@ -48,6 +48,8 @@ Difference between undeclared and undefined - undefined is a value, undeclared h
 */
 
 
+//mutual recursion - functions that call each other 
+
 
 
 
