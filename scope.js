@@ -50,6 +50,15 @@ Difference between undeclared and undefined - undefined is a value, undeclared h
 
 //mutual recursion - functions that call each other 
 
+//This - current execution context
+	//dependant on call site
+	 /* 
+		1
+		2 - explicit - clearly defined what this is referring too
+		3 - implicit - context object becomes this, has a containing object
+		4 -  default - reference to the function. Undefined or Global value
+	 */
+
 
 
 
