@@ -2,8 +2,6 @@
 
 var NotesManager = (function(){
 
-
-
 function addNote(note) {
 	$("#notes").prepend(
 		$("<a href='#'></a>")
@@ -95,11 +93,24 @@ function init() {
 	// listen for clicks on note elements
 	$("#notes").on("click",".note",handleNoteClick);
 }
+	function loadData(data){
+		notes = notes.concat(data);
+	}
+	
+	var notes = [];
 
+		var publicAPI = {
+			init: init,
+			loadData: loadData
+		};
+
+		return publicAPI;
 })();
-var notes = [
-	"This is the first note I've taken!",
-	"Now is the time for all good men to come to the aid of their country.",
-	"The quick brown fox jumped over the moon."
-];
-$(document).ready(init);
+NotesManager.loadData(
+		[
+		"This is the first note I've taken!",
+		"Now is the time for all good men to come to the aid of their country.",
+		"The quick brown fox jumped over the moon."
+		]
+);
+$(document).ready(NotesManager.init);
