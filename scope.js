@@ -54,7 +54,10 @@ Difference between undeclared and undefined - undefined is a value, undeclared h
 //This - current execution context
 	//dependant on call site
 	 /* 
-		1 - still need to figure out
+		1 - hard bind
+			function foo(){console.log(this.bar);}
+			var orig = foo
+			foo = function(){ orig.call(obj);}
 		2 - explicit - clearly defined what this is referring too
 		3 - implicit - context object becomes this, has a containing object
 		4 -  default - reference to the function. Undefined or Global value
