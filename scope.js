@@ -26,6 +26,7 @@ console.log(foo);// foo
 
 //Let - ES6 Assign to the lexical scope  (let i =0) in a for loops. Will only give access in a for loop for example
 	// have to be at top of a block
+	//Review in the future
 //Good Example of Let. Not used in ES6
 	function foo(bar){
 		let (baz = bar){
@@ -53,7 +54,7 @@ Difference between undeclared and undefined - undefined is a value, undeclared h
 //This - current execution context
 	//dependant on call site
 	 /* 
-		1
+		1 - still need to figure out
 		2 - explicit - clearly defined what this is referring too
 		3 - implicit - context object becomes this, has a containing object
 		4 -  default - reference to the function. Undefined or Global value
