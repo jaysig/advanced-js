@@ -1,0 +1,1 @@
+//Closure - function remembers lexical scope even when excuted outside of it
