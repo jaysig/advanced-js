@@ -9,6 +9,24 @@
 	Inversion of Control: Handling over control of program to an API or something outside the program
 	Seperate Callbacks: Success and failure callbacks - Does not fix it
 	Error First: If, Else - Does not fix it
-	
+
 
 */
+
+
+/*  Generators(yield)
+	Calls itself in the middle of a function
+	Generator creates an iterator 
+		Runs until the next yield statement or the end
+	Hide asynchrous in synchrous 
+
+*/
+function* gen(){
+	console.log("hello");
+	yield null;
+	console.log("World");
+}
+
+var it = gen();
+it.next(); //prints "hello"
+it.next(); //prints "World"
