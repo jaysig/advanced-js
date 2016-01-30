@@ -15,3 +15,13 @@
  //[[Prototype]] allows for delegation up the prototypial change
 
  //Make sure to remember that prototypial inheritance is not the same as classes
+
+ //Classical Inheritance 
+ 	//Class is the blueprint 
+
+ //Prototypal  Inheritance
+ 	// need the Bar.prototype
+
+ //JS has behavior delegation 
+
+ 
