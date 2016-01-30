@@ -30,3 +30,9 @@ function* gen(){
 var it = gen();
 it.next(); //prints "hello"
 it.next(); //prints "World"
+
+/*  Promise - "continuation events"
+	Jquery style - have deferred functions
+	Native - new Promise 
+
+*/
