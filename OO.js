@@ -14,4 +14,4 @@
 
  //[[Prototype]] allows for delegation up the prototypial change
 
- //
+ //Make sure to remember that prototypial inheritance is not the same as classes
