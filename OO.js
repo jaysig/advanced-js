@@ -44,6 +44,16 @@
  	b1.init("b1");
  	b1.speak(); //Alerts: "hello, I am b1."
 
+ //How is JS's prototype chain not like tradional/classical inheritance
+ 	//It copies
+
+ //What is behavior delegation
+ 	//Objects delegate up the chain
+
+ //Why is behavior delgation helpful & what are the tradeoffs
+ 	//Objects Dynamically changing
+ 
+
 
 
 
