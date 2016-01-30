@@ -36,3 +36,9 @@ it.next(); //prints "World"
 	Native - new Promise 
 
 */
+
+/* Async Patterns 
+ Sequence = auto chained promises
+Assumes you want to go on 
+ Gate - Wait for multiple things to finish before moving on
+*/
