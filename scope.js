@@ -64,6 +64,12 @@ Difference between undeclared and undefined - undefined is a value, undeclared h
 		4 -  default - reference to the function. Undefined or Global value
 	 */
 
+//Call & Apply
+/* 
+	Call - comma seperate values
+	Apply - add arugments as an array
+*/
+
 //New - modify the way the 
 	/* 
 	1. new object created
