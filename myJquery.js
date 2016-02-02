@@ -42,7 +42,13 @@
         }
       }
     },
-    makeArray: function(arr) {},
+    makeArray: function(arr) {
+      var arrau = [];
+      $.each(arr, function(i, value){
+        array.push(value);
+      });
+      return array;
+    },
     proxy: function(fn, context) {}
   });
  
