@@ -11,8 +11,18 @@
   };
   
   // Static methods
-  var isArrayLike = function(obj) {};
+  var isArrayLike = function(obj) {
+    if(typeof obj.length === "number") {
+      if(obj.length === 0){
+        return true;
+      } else if(obj.length > 0){
+        return (obj.length-1) in ojb;
+      }
+    } 
+      return false;
+  };
  
+ //Duck Typing if it does something like something else. It is that 
   $.extend($, {
     isArray: function(obj) {
       return Object.prototype.toString.call(obj) === '[object Array]';
