@@ -49,7 +49,11 @@
       });
       return array;
     },
-    proxy: function(fn, context) {}
+    proxy: function(fn, context) { //perserves this context
+      return function(){
+        return fn.apply(context, arguments);
+      };
+    }
   });
  
   $.extend($.prototype, {
